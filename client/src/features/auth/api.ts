@@ -1,7 +1,11 @@
 import axios, { AxiosError, type InternalAxiosRequestConfig } from "axios";
 
+const defaultApiUrl = import.meta.env.PROD
+  ? "https://aarogya-drishti-health-backend.onrender.com/api/v1"
+  : "/api/v1";
+
 export const apiBaseUrl = new URL(
-  import.meta.env.VITE_API_URL ?? "/api/v1",
+  import.meta.env.VITE_API_URL ?? defaultApiUrl,
   window.location.origin
 ).toString().replace(/\/+$/, "");
 
