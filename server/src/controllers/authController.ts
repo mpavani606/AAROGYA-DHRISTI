@@ -1,0 +1,17 @@
+import type { RequestHandler } from "express";
+import * as service from "../services/authService.js";
+const sendError = (next: (error: unknown) => void, error: unknown) => next(error);
+const setRefreshCookie = (res: Parameters<RequestHandler>[1], token: string) => res.setHeader("Set-Cookie", `aarogya_refresh=${token}; HttpOnly; SameSite=Lax; Path=/api/v1/auth/refresh${process.env.NODE_ENV === "production" ? "; Secure" : ""}`);
+const refreshCookie = (req: Parameters<RequestHandler>[0]) => req.headers.cookie?.match(/(?:^|; )aarogya_refresh=([^;]+)/)?.[1];
+export const register: RequestHandler = async (req, _res, next) => { try { await service.register(req.body); } catch (e) { sendError(next, e); } };
+export const registerPatient: RequestHandler = async (req, res, next) => { try { const result = await service.registerPatient(req.body); res.status(201).json(result); } catch (e) { sendError(next, e); } };
+export const registerDoctor: RequestHandler = async (req, res, next) => { try { res.status(201).json(await service.registerDoctor(req.body)); } catch (e) { sendError(next, e); } };
+export const login: RequestHandler = async (req, res, next) => { try { const result = await service.login(req.body.identifier ?? req.body.phone ?? req.body.email, req.body.password, req.body.role, req.body.hospitalCode); if ("refreshToken" in result) { const { refreshToken, ...session } = result; setRefreshCookie(res, refreshToken); return res.json(session); } res.json(result); } catch (e) { sendError(next, e); } };
+export const verifyMfa: RequestHandler = async (req, res, next) => { try { const { refreshToken, ...session } = await service.verifyMfa(req.body.mfaToken, req.body.code); setRefreshCookie(res, refreshToken); res.json(session); } catch (e) { sendError(next, e); } };
+export const refresh: RequestHandler = async (req, res, next) => { try { const { refreshToken, ...session } = await service.refresh(req.body.refreshToken ?? req.header("x-refresh-token") ?? refreshCookie(req)); setRefreshCookie(res, refreshToken); res.json(session); } catch (e) { sendError(next, e); } };
+export const logout: RequestHandler = async (req, res, next) => { try { await service.logout(req.user!.id); res.setHeader("Set-Cookie", `aarogya_refresh=; HttpOnly; SameSite=Lax; Max-Age=0; Path=/api/v1/auth/refresh${process.env.NODE_ENV === "production" ? "; Secure" : ""}`); res.status(204).send(); } catch (e) { sendError(next, e); } };
+export const setupMfa: RequestHandler = async (req, res, next) => { try { res.json(await service.setupMfaForChallenge(req.body.mfaToken)); } catch (e) { sendError(next, e); } };
+export const setupManagerPassword: RequestHandler = async (req, res, next) => { try { res.json(await service.setManagerPassword(req.body.token, req.body.password)); } catch (e) { sendError(next, e); } };
+export const setupAshaWorkerPassword: RequestHandler = async (req, res, next) => { try { res.json(await service.setAshaWorkerPassword(req.body.token, req.body.password)); } catch (e) { sendError(next, e); } };
+export const requestPatientOtp: RequestHandler = async (req, res, next) => { try { res.status(202).json(await service.requestPatientOtp(req.body.phone)); } catch (e) { sendError(next, e); } };
+export const verifyPatientOtp: RequestHandler = async (req, res, next) => { try { const { refreshToken, ...session } = await service.verifyPatientOtp(req.body.challengeId, req.body.code); setRefreshCookie(res, refreshToken); res.json(session); } catch (e) { sendError(next, e); } };

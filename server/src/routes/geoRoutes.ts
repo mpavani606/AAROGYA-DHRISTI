@@ -1,0 +1,13 @@
+import { Router } from "express";
+import { auth } from "../middleware/auth.js";
+import { requireRole } from "../middleware/rbac.js";
+import { auditAccess } from "../middleware/auditAccess.js";
+import { validateMongoIdParams } from "../middleware/validate.js";
+import { districts, mandals, mandalDetail, phcVillages, villageCoverage } from "../controllers/geoController.js";
+export const geoRoutes = Router();
+geoRoutes.use(auth, auditAccess, requireRole("system_admin", "district_admin", "doctor"), validateMongoIdParams);
+geoRoutes.get("/districts", districts);
+geoRoutes.get("/mandals", mandals);
+geoRoutes.get("/mandals/:mandalId", mandalDetail);
+geoRoutes.get("/phcs/:phcId/villages", phcVillages);
+geoRoutes.get("/villages/:villageId/coverage", villageCoverage);

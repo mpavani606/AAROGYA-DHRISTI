@@ -1,0 +1,20 @@
+import { Router } from "express";
+import { auth } from "../middleware/auth.js";
+import { requireRole } from "../middleware/rbac.js";
+import { requireDoctorVerification } from "../middleware/doctorVerification.js";
+import { auditAccess } from "../middleware/auditAccess.js";
+import { requirePatientCareRelationship } from "../middleware/patientCareRelationship.js";
+import { requireDoctorCaseCareRelationship } from "../middleware/doctorCaseCareRelationship.js";
+import { validateMongoIdParams } from "../middleware/validate.js";
+import { assignedFollowUps, careOverview, caseCareOverview, createFollowUp, followUpCareRelationship, listPatientFollowUps, patientMedicalReport, referralDestinations, updateFollowUp } from "../controllers/phase7Controller.js";
+
+export const phase7Routes = Router();
+phase7Routes.use(auth, requireRole("patient", "doctor", "system_admin"), requireDoctorVerification, auditAccess, validateMongoIdParams);
+phase7Routes.get("/patients/:id/care-overview", requirePatientCareRelationship, careOverview);
+phase7Routes.get("/cases/:id/care-overview", requireRole("doctor"), requireDoctorCaseCareRelationship, caseCareOverview);
+phase7Routes.get("/patients/:id/follow-ups", requirePatientCareRelationship, listPatientFollowUps);
+phase7Routes.get("/patients/:id/medical-report", requirePatientCareRelationship, patientMedicalReport);
+phase7Routes.get("/follow-ups/assigned", requireRole("doctor"), assignedFollowUps);
+phase7Routes.post("/cases/:id/follow-ups", requireRole("doctor"), requireDoctorCaseCareRelationship, createFollowUp);
+phase7Routes.patch("/follow-ups/:id", requireRole("doctor"), followUpCareRelationship, updateFollowUp);
+phase7Routes.get("/referral-destinations", requireRole("doctor"), referralDestinations);

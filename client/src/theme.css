@@ -1,0 +1,820 @@
+:root {
+  color-scheme: light;
+  --color-page: #fff5f8;
+  --color-surface-soft: #fceaf1;
+  --color-surface-tint: #f8dce7;
+  --color-primary: #e8a0b8;
+  --color-primary-hover: #d989a7;
+  --color-border: #f3d5e0;
+  --color-text: #344054;
+  --color-muted: #667085;
+  --color-white: #fff;
+  --shadow-card: 0 8px 24px rgb(118 65 84 / 7%);
+  font-family: "Noto Sans", "Noto Sans Telugu", "Noto Sans Devanagari", sans-serif;
+  color: var(--color-text);
+  background: var(--color-page);
+  accent-color: var(--color-primary-hover);
+}
+
+html {
+  background: var(--color-page);
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-text);
+  background: var(--color-page);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+button:not(:disabled):active,
+a:active {
+  transform: translateY(1px);
+}
+
+:is(button, a, input, select, textarea):focus-visible {
+  outline: 3px solid rgb(217 137 167 / 45%);
+  outline-offset: 2px;
+}
+
+::selection {
+  color: var(--color-text);
+  background: var(--color-surface-tint);
+}
+
+.bg-medical-50,
+.bg-teal-50 {
+  background-color: var(--color-page);
+}
+
+.bg-medical-100,
+.bg-teal-100 {
+  background-color: var(--color-surface-soft);
+}
+
+.bg-medical-200,
+.bg-teal-200,
+.bg-medical-800,
+.bg-teal-800 {
+  background-color: var(--color-surface-tint);
+}
+
+.bg-medical-900,
+.bg-teal-900 {
+  background-color: var(--color-surface-soft);
+  color: var(--color-text);
+}
+
+.bg-medical-700,
+.bg-teal-700 {
+  background-color: var(--color-primary);
+}
+
+.text-medical-700,
+.text-teal-700,
+.text-teal-800,
+.text-teal-900 {
+  color: #805363;
+}
+
+.text-teal-950 {
+  color: var(--color-text);
+}
+
+.bg-medical-700.text-white,
+.bg-medical-800.text-white,
+.bg-teal-700.text-white,
+.bg-teal-800.text-white,
+.bg-medical-900.text-white {
+  color: var(--color-text);
+}
+
+.border-medical-700,
+.border-teal-700 {
+  border-color: var(--color-primary);
+}
+
+.border-teal-100,
+.border-teal-200,
+.border-teal-300 {
+  border-color: var(--color-border);
+}
+
+.border-medical-100 {
+  border-color: var(--color-border);
+}
+
+.bg-slate-50,
+.bg-slate-100 {
+  background-color: var(--color-surface-soft);
+}
+
+.bg-slate-200 {
+  background-color: var(--color-surface-tint);
+}
+
+.border-slate-200,
+.border-slate-300 {
+  border-color: var(--color-border);
+}
+
+.hover\:bg-slate-50:hover {
+  background-color: var(--color-surface-soft);
+}
+
+:where(.border, .border-b, .border-t, .border-x, .border-y) {
+  border-color: var(--color-border);
+}
+
+.primary,
+.rd-signin,
+.rd-auth-note button,
+.rd-card-action,
+.rd-reference-awareness button,
+.ad-sign-in,
+.ad-care-link,
+.ad-primary-button,
+.rd-hero-cta {
+  border-color: var(--color-primary) !important;
+  background: var(--color-primary) !important;
+  color: var(--color-text) !important;
+  box-shadow: 0 4px 12px rgb(118 65 84 / 10%);
+}
+
+.primary:hover,
+.rd-signin:hover,
+.rd-auth-note button:hover,
+.rd-card-action:hover,
+.rd-reference-awareness button:hover,
+.ad-sign-in:hover,
+.ad-care-link:hover,
+.ad-primary-button:hover,
+.rd-hero-cta:hover {
+  border-color: var(--color-primary-hover) !important;
+  background: var(--color-primary-hover) !important;
+  color: var(--color-text) !important;
+  transform: translateY(-1px);
+}
+
+.secondary,
+.field,
+.member-card,
+.signature {
+  border-color: var(--color-border);
+}
+
+.secondary {
+  color: var(--color-text);
+  background: var(--color-white);
+}
+
+.secondary:hover {
+  background: var(--color-surface-soft);
+}
+
+.field,
+input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"]),
+select,
+textarea {
+  color: var(--color-text);
+  border-color: var(--color-border);
+  background-color: var(--color-white);
+}
+
+.field:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--color-primary-hover);
+  box-shadow: 0 0 0 3px rgb(232 160 184 / 20%);
+  outline: 0;
+}
+
+.panel,
+.case-panel,
+.patient-profile .panel {
+  border: 1px solid var(--color-border);
+  background: var(--color-white);
+  box-shadow: var(--shadow-card);
+}
+
+.choice {
+  border-color: var(--color-border);
+  color: var(--color-text);
+  background: var(--color-page);
+}
+
+.choice:hover,
+.choice-active {
+  border-color: var(--color-primary);
+  background: var(--color-surface-soft);
+}
+
+.drop-zone,
+.assistant,
+.light-meter {
+  border-color: var(--color-border);
+  background: var(--color-surface-soft);
+}
+
+.steps .step-current b,
+.steps .step-done b,
+.case-steps .current {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: var(--color-text);
+}
+
+.oral-home {
+  --oral-ink: #344054;
+  --oral-muted: #667085;
+  --oral-green: #bd718a;
+  --oral-green-dark: #805363;
+  --oral-paper: #fff5f8;
+  --oral-coral: #d989a7;
+  color: var(--color-text);
+  background: var(--color-page);
+}
+
+.oral-brand,
+.oral-nav-links > a:not(.oral-nav-cta),
+.oral-section-heading h2,
+.oral-step-card h3,
+.oral-reminder h2 {
+  color: var(--color-text);
+}
+
+.oral-brand-mark,
+.oral-nav-cta,
+.oral-button-primary {
+  background: var(--color-primary);
+  color: var(--color-text);
+  box-shadow: 0 6px 16px rgb(118 65 84 / 10%);
+}
+
+.oral-hero {
+  border-color: var(--color-border);
+  background: linear-gradient(120deg, #fceaf1, #fff);
+}
+
+.oral-hero::before,
+.oral-art-orbit {
+  border-color: var(--color-border);
+}
+
+.oral-hero-art {
+  background: #f8dce7;
+}
+
+.oral-step-card,
+.oral-art-caption {
+  border-color: var(--color-border);
+  background: var(--color-white);
+}
+
+.oral-reminder {
+  border-color: var(--color-border);
+  background: var(--color-surface-soft);
+}
+
+.oral-step-icon,
+.oral-caption-icon,
+.oral-reminder-icon {
+  background: var(--color-surface-tint);
+  color: #805363;
+}
+
+.oral-step-card a,
+.oral-reminder > a {
+  color: #805363;
+}
+
+.ad-dashboard {
+  --ad-navy: #fff;
+  --ad-teal: #e8a0b8;
+  --ad-ink: #344054;
+  --ad-muted: #667085;
+  color: var(--color-text);
+  background: var(--color-page);
+}
+
+.ad-sidebar {
+  border-right: 1px solid var(--color-border);
+  background: #fff;
+  color: var(--color-text);
+  box-shadow: 4px 0 24px rgb(118 65 84 / 6%);
+}
+
+.ad-brand,
+.ad-side-link {
+  color: var(--color-text);
+}
+
+.ad-brand-mark,
+.ad-side-link > span {
+  border-color: var(--color-border);
+  color: #805363;
+}
+
+.ad-brand-mark,
+.ad-sidebar-note,
+.ad-side-link:hover,
+.ad-side-link-active {
+  background: var(--color-surface-soft);
+}
+
+.ad-brand small,
+.ad-sidebar-note small {
+  color: var(--color-muted);
+}
+
+.ad-sidebar-note {
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+.ad-sidebar-note > span {
+  color: #bd718a;
+}
+
+.ad-topbar {
+  border-color: var(--color-border);
+  background: rgb(255 255 255 / 92%);
+}
+
+.ad-hero {
+  border: 1px solid var(--color-border);
+  background: linear-gradient(115deg, #f8dce7, #fff 76%);
+  color: var(--color-text);
+  box-shadow: var(--shadow-card);
+}
+
+.ad-hero::before,
+.ad-hero::after {
+  border-color: rgb(217 137 167 / 18%);
+}
+
+.ad-eyebrow,
+.ad-section-kicker {
+  color: #805363;
+}
+
+.ad-eyebrow > span,
+.ad-hero-assurance span {
+  background: var(--color-primary-hover);
+  color: #805363;
+  box-shadow: none;
+}
+
+.ad-hero-copy > p,
+.ad-hero-copy > .ad-hero-tagline,
+.ad-hero-assurance {
+  color: #536071;
+}
+
+.ad-primary-button {
+  color: var(--color-text);
+}
+
+.ad-secondary-button {
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+.ad-care-panel {
+  border-color: var(--color-border);
+  background: var(--color-white);
+  color: var(--color-text);
+  box-shadow: 0 10px 24px rgb(118 65 84 / 9%);
+}
+
+.ad-care-panel-heading,
+.ad-user {
+  border-color: var(--color-border);
+}
+
+.ad-care-icon,
+.ad-journey-step > span,
+.ad-avatar {
+  background: var(--color-surface-soft);
+  color: #805363;
+}
+
+.ad-service-card {
+  border-color: var(--color-border);
+  box-shadow: var(--shadow-card);
+}
+
+.ad-tone-blue .ad-service-icon,
+.ad-tone-mint .ad-service-icon,
+.ad-tone-lilac .ad-service-icon,
+.ad-tone-peach .ad-service-icon,
+.ad-tone-aqua .ad-service-icon,
+.ad-tone-rose .ad-service-icon {
+  background: var(--color-surface-soft);
+  color: #805363;
+}
+
+.ad-service-card a,
+.ad-disclaimer a {
+  color: #805363;
+}
+
+.ad-disclaimer {
+  border-color: var(--color-border);
+  background: var(--color-surface-soft);
+}
+
+.ad-disclaimer > span {
+  background: var(--color-surface-tint);
+  color: #805363;
+}
+
+.ad-disclaimer p,
+.ad-disclaimer p strong {
+  color: var(--color-text);
+}
+
+.ad-footer {
+  color: var(--color-muted);
+}
+
+.rd-app {
+  --rd-ink: #344054;
+  --rd-teal: #e8a0b8;
+  --rd-border: #f3d5e0;
+  background: var(--color-page);
+  color: var(--color-text);
+}
+
+.rd-sidebar {
+  border-color: var(--color-border);
+  background: var(--color-white);
+  box-shadow: 4px 0 22px rgb(118 65 84 / 6%);
+}
+
+.rd-brand,
+.rd-nav button {
+  color: var(--color-text);
+}
+
+.rd-brand-mark,
+.rd-nav button span,
+.rd-help > span {
+  border-color: var(--color-border);
+  background: var(--color-surface-soft);
+  color: #805363;
+  box-shadow: none;
+}
+
+.rd-nav-heading {
+  color: #805363;
+}
+
+.rd-brand small,
+.rd-help small,
+.rd-simulation {
+  color: var(--color-muted);
+}
+
+.rd-help {
+  border-color: var(--color-border);
+  background: var(--color-surface-soft);
+  color: var(--color-text);
+}
+
+.rd-help a {
+  color: #805363;
+}
+
+.rd-main {
+  background: var(--color-page);
+}
+
+.rd-topbar {
+  border-color: var(--color-border);
+  background: rgb(255 245 248 / 92%);
+}
+
+.rd-location,
+.rd-user b,
+.rd-search input {
+  color: var(--color-text);
+}
+
+.rd-location > span:first-child,
+.rd-search-result-icon {
+  color: #805363;
+}
+
+.rd-search,
+.rd-icon-button,
+.rd-search-results,
+.rd-search-results > button,
+.rd-reference-stat,
+.rd-card,
+.rd-reference-card,
+.rd-reference-quick,
+.rd-coverage,
+.rd-auth-note,
+.rd-loading {
+  border-color: var(--color-border);
+  background: var(--color-white);
+  box-shadow: var(--shadow-card);
+}
+
+.rd-search-results > button:hover,
+.rd-nav button:hover,
+.rd-nav button:focus-visible {
+  background: var(--color-surface-soft);
+}
+
+.rd-nav button.active {
+  background: var(--color-surface-tint);
+  color: var(--color-text);
+  box-shadow: none;
+}
+
+.rd-nav button.active span,
+.rd-reference-card .rd-card-icon,
+.rd-card-icon {
+  background: var(--color-surface-soft);
+  color: #805363;
+}
+
+.rd-user,
+.rd-icon-button,
+.rd-topbar,
+.rd-search-results > button,
+.rd-reference-stat,
+.rd-card,
+.rd-reference-card,
+.rd-reference-quick,
+.rd-coverage {
+  color: var(--color-text);
+}
+
+.rd-avatar {
+  border-color: #fff;
+  background: var(--color-surface-tint);
+  color: #805363;
+}
+
+.rd-dashboard {
+  background: var(--color-page);
+}
+
+.rd-reference-hero,
+.rd-reference-awareness {
+  border-color: var(--color-border);
+  background: linear-gradient(110deg, #f8dce7, #fff 82%);
+  color: var(--color-text);
+  box-shadow: var(--shadow-card);
+}
+
+.rd-reference-hero::before,
+.rd-reference-hero::after,
+.rd-reference-awareness::after {
+  opacity: 0.2;
+}
+
+.rd-reference-hero .rd-eyebrow,
+.rd-reference-motto,
+.rd-reference-tagline,
+.rd-reference-hero h1,
+.rd-reference-awareness h2,
+.rd-reference-awareness p,
+.rd-reference-awareness .rd-eyebrow {
+  color: var(--color-text);
+}
+
+.rd-reference-orbit,
+.rd-reference-shield,
+.rd-reference-glow,
+.rd-awareness-emblem {
+  display: none;
+}
+
+.rd-reference-stat {
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+.rd-reference-blue,
+.rd-reference-teal,
+.rd-reference-orange,
+.rd-reference-violet,
+.rd-reference-green,
+.rd-reference-pink {
+  background: var(--color-surface-soft);
+}
+
+.rd-reference-stat > span {
+  background: var(--color-surface-tint);
+  color: #805363;
+}
+
+.rd-reference-stat small,
+.rd-reference-stat strong,
+.rd-reference-stat .rd-stat-hint {
+  color: var(--color-text);
+}
+
+.rd-reference-callout {
+  border-color: var(--color-border);
+  background: var(--color-white);
+  box-shadow: var(--shadow-card);
+  color: var(--color-text);
+}
+
+.rd-reference-callout span {
+  color: #805363;
+}
+
+.rd-reference-card .rd-card-heading h2,
+.rd-reference-quick h2,
+.rd-reference-card .rd-metric > div,
+.rd-reference-card .rd-metric strong {
+  color: var(--color-text);
+}
+
+.rd-fill-blue,
+.rd-fill-orange,
+.rd-fill-teal,
+.rd-fill-green,
+.rd-fill-pink,
+.rd-fill-violet {
+  background: var(--color-primary);
+}
+
+.rd-metric-track,
+.rd-activity-list::before {
+  background: var(--color-surface-tint);
+}
+
+.rd-dot-1,
+.rd-dot-2,
+.rd-dot-3,
+.rd-mandal-dot {
+  background: var(--color-primary-hover);
+}
+
+.rd-reference-card .rd-card-action {
+  background: var(--color-surface-soft);
+  color: var(--color-text);
+}
+
+.rd-app .rd-quick.blue,
+.rd-app .rd-quick.violet,
+.rd-app .rd-quick.green,
+.rd-app .rd-quick.orange {
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-soft);
+  box-shadow: 0 4px 12px rgb(118 65 84 / 7%);
+  color: var(--color-text);
+}
+
+.rd-app .rd-quick.blue:hover,
+.rd-app .rd-quick.violet:hover,
+.rd-app .rd-quick.green:hover,
+.rd-app .rd-quick.orange:hover {
+  background: var(--color-surface-tint);
+  filter: none;
+}
+
+.rd-reference-awareness .rd-eyebrow {
+  color: #805363;
+}
+
+.rd-footer,
+.rd-chart-note,
+.rd-reference-mandals .rd-coverage-note {
+  color: var(--color-muted);
+}
+
+.rd-stat,
+.rd-reference-stat,
+.rd-card,
+.rd-reference-card,
+.rd-reference-quick,
+.rd-service-card,
+.panel,
+.case-panel {
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.rd-card:hover,
+.rd-reference-card:hover,
+.rd-reference-quick:hover,
+.ad-service-card:hover,
+.panel:hover {
+  border-color: #e8a0b8;
+  box-shadow: 0 12px 28px rgb(118 65 84 / 10%);
+  transform: translateY(-2px);
+}
+
+.ad-sidebar {
+  animation: slide-in 420ms ease both;
+}
+
+.rd-sidebar {
+  animation: slide-in 420ms ease both;
+}
+
+.ad-main,
+.rd-dashboard,
+.new-patient,
+.patient-profile,
+.case-flow,
+#root main,
+.oral-home > main {
+  animation: page-enter 420ms ease both;
+}
+
+.rd-reference-stat,
+.rd-stat,
+.rd-metric-fill {
+  animation: rise-in 460ms ease both;
+}
+
+.rd-search-results,
+.rd-notifications,
+[role="menu"],
+[role="listbox"] {
+  transform-origin: top center;
+  animation: dropdown-in 160ms ease both;
+}
+
+.rd-loading,
+.skeleton,
+.animate-pulse {
+  background: linear-gradient(90deg, #fceaf1 25%, #fff 50%, #fceaf1 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+@keyframes page-enter {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-in {
+  from { opacity: 0; transform: translateX(-8px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(6px) scale(.99); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes dropdown-in {
+  from { opacity: 0; transform: translateY(-4px) scale(.99); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes shimmer {
+  to { background-position: -200% 0; }
+}
+
+@media (max-width: 720px) {
+  .rd-sidebar {
+    border-color: var(--color-border);
+    background: var(--color-white);
+    box-shadow: 0 -5px 18px rgb(118 65 84 / 8%);
+    animation: page-enter 320ms ease both;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

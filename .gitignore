@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+node_modules/
+client/dist/
+server/dist/
+client/test-results/
+client/playwright-report/
+storage/

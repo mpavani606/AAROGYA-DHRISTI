@@ -1,0 +1,93 @@
+services:
+  mongo:
+    image: mongo:8
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME:?Set a MongoDB admin username}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD:?Set a strong MongoDB admin password}
+    volumes:
+      - mongo-data:/data/db
+    networks: [private]
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--username", "${MONGO_INITDB_ROOT_USERNAME}", "--password", "${MONGO_INITDB_ROOT_PASSWORD}", "--authenticationDatabase", "admin", "--eval", "db.adminCommand({ ping: 1 }).ok"]
+      interval: 20s
+      timeout: 10s
+      retries: 5
+
+  seed:
+    build: ./server
+    command: ["node", "dist/seed.js"]
+    restart: "no"
+    environment:
+      NODE_ENV: production
+      MONGODB_URI: ${MONGODB_URI:?Set a MongoDB URI with authentication}
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:?Set JWT_REFRESH_SECRET}
+      APP_ENCRYPTION_KEY: ${APP_ENCRYPTION_KEY:?Set APP_ENCRYPTION_KEY}
+      CLIENT_URL: ${CLIENT_URL:?Set the HTTPS client origin}
+      LOCAL_MEDIA_STORAGE: "true"
+    volumes:
+      - media-data:/app/storage/media
+    depends_on:
+      mongo:
+        condition: service_healthy
+    networks: [private]
+
+  server:
+    build: ./server
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 4000
+      CLIENT_URL: ${CLIENT_URL:?Set the HTTPS client origin}
+      MONGODB_URI: ${MONGODB_URI:?Set a MongoDB URI with authentication}
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:?Set JWT_REFRESH_SECRET}
+      APP_ENCRYPTION_KEY: ${APP_ENCRYPTION_KEY:?Set APP_ENCRYPTION_KEY}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_REALTIME_MODEL: ${OPENAI_REALTIME_MODEL:-gpt-realtime}
+      SMS_MODE: ${SMS_MODE:-mock}
+      LOCAL_MEDIA_STORAGE: "true"
+    volumes:
+      - media-data:/app/storage/media
+    depends_on:
+      mongo:
+        condition: service_healthy
+      seed:
+        condition: service_completed_successfully
+    networks: [private]
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:4000/api/v1/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  client:
+    build:
+      context: .
+      dockerfile: client/Dockerfile
+      args:
+        VITE_API_URL: /api/v1
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ${TLS_CERT_DIR:?Set TLS_CERT_DIR with fullchain.pem and privkey.pem}:/etc/nginx/certs:ro
+    depends_on:
+      server:
+        condition: service_healthy
+    networks: [private]
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-check-certificate -qO- https://127.0.0.1/healthz || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+networks:
+  private:
+    driver: bridge
+
+volumes:
+  mongo-data:
+  media-data:

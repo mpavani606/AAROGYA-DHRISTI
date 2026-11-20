@@ -1,0 +1,673 @@
+{
+  "sourceDocument": "ASR_District_Hospitals_and_Doctors_Directory (1).pdf",
+  "sourceName": "Government of Andhra Pradesh APMSIDC tender document 4.3D/APMSIDC/2023-24",
+  "sourceSnapshotDate": "2023-07-10",
+  "phcs": [
+    {
+      "sourceSerial": 1,
+      "facilityName": "Duppulapalem",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Addateegala",
+      "medicalOfficerName": "Dr. G. Christopher",
+      "mobile": "9705699931",
+      "email": "phcduppulapalem@rediffmail.com"
+    },
+    {
+      "sourceSerial": 2,
+      "facilityName": "Yellavaram",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Addateegala",
+      "medicalOfficerName": "Dr. G. Bhaskar",
+      "mobile": "9493808543",
+      "email": "mophcyellavaram@gmail.com"
+    },
+    {
+      "sourceSerial": 3,
+      "facilityName": "Ananthagiri",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Ananthagiri",
+      "medicalOfficerName": "Dr. Davaluri Anusha Rao",
+      "mobile": "7382798216",
+      "email": "phcananthagiri@gmail.com"
+    },
+    {
+      "sourceSerial": 4,
+      "facilityName": "Bheemavaram",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Ananthagiri",
+      "medicalOfficerName": "Dr. P. Sathish",
+      "mobile": "9493338682",
+      "email": "phcbheemavaram@gmail.com"
+    },
+    {
+      "sourceSerial": 5,
+      "facilityName": "Lungaparthi",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Ananthagiri",
+      "medicalOfficerName": "Pillarsetty Pavan Kumar",
+      "mobile": "8331028190",
+      "email": null
+    },
+    {
+      "sourceSerial": 6,
+      "facilityName": "Pinakota",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Ananthagiri",
+      "medicalOfficerName": "Kotakala VVSN Rajesh",
+      "mobile": "8331028471",
+      "email": null
+    },
+    {
+      "sourceSerial": 7,
+      "facilityName": "Gannela",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Araku Valley",
+      "medicalOfficerName": "Dr. K. Angel Suhan",
+      "mobile": "9493778432",
+      "email": "phcgannela@gmail.com"
+    },
+    {
+      "sourceSerial": 8,
+      "facilityName": "Madagada",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Araku Valley",
+      "medicalOfficerName": "Dr. Sugali Vineela",
+      "mobile": "9493203816",
+      "email": null
+    },
+    {
+      "sourceSerial": 9,
+      "facilityName": "Sunkarametta",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Araku Valley",
+      "medicalOfficerName": "Savarapu Bujji Babu",
+      "mobile": "8985868769",
+      "email": "phcsunkarametta@gmail.com"
+    },
+    {
+      "sourceSerial": 10,
+      "facilityName": "Korukonda",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Chintapalle",
+      "medicalOfficerName": "Dr. Senapathi Santhosh Kumar",
+      "mobile": "9492615031",
+      "email": "crazy.ashok@gmail.com"
+    },
+    {
+      "sourceSerial": 11,
+      "facilityName": "Lambasingi",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Chintapalle",
+      "medicalOfficerName": "P. Maramma",
+      "mobile": "9440209863",
+      "email": "ravi65131@gmail.com"
+    },
+    {
+      "sourceSerial": 12,
+      "facilityName": "Lothugedda",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Chintapalle",
+      "medicalOfficerName": "Dr. Botchi Lachiramnaick",
+      "mobile": "9247413118",
+      "email": "chammachinthaprasad1976@gmail.com"
+    },
+    {
+      "sourceSerial": 13,
+      "facilityName": "Tajangi",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Chintapalle",
+      "medicalOfficerName": "Dr. Ginjari Lova Bapiraju",
+      "mobile": "9493602405",
+      "email": "drkusumspavani55@yahoo.com"
+    },
+    {
+      "sourceSerial": 14,
+      "facilityName": "Edugurallapalli",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Chintur",
+      "medicalOfficerName": "Dr. Srinivasamurthy",
+      "mobile": "8501081396",
+      "email": "phcedugurallapally@gmail.com"
+    },
+    {
+      "sourceSerial": 15,
+      "facilityName": "Mothugudem",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Chintur",
+      "medicalOfficerName": "Dr. T. V. Seshi Reddy",
+      "mobile": "8639365162",
+      "email": "phcmgm21@gmail.com"
+    },
+    {
+      "sourceSerial": 16,
+      "facilityName": "Tulasipaka",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Chintur",
+      "medicalOfficerName": "Dr. V. Koteswarao",
+      "mobile": "7799334493",
+      "email": "tulasipakaphc@gmail.com"
+    },
+    {
+      "sourceSerial": 17,
+      "facilityName": "Devipatnam",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Devipatnam",
+      "medicalOfficerName": "Dr. D. Durga Prasad",
+      "mobile": "9441162609",
+      "email": "phcdevipatnam@rediffmail.com"
+    },
+    {
+      "sourceSerial": 18,
+      "facilityName": "Indukurupeta",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Devipatnam",
+      "medicalOfficerName": "Dr. Noorjahan Begum",
+      "mobile": "9010722013",
+      "email": "phcindukurupeta@gmail.com"
+    },
+    {
+      "sourceSerial": 19,
+      "facilityName": "Kondamodalu",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Devipatnam",
+      "medicalOfficerName": "Dr. P. Nanda Kishore",
+      "mobile": "9849522763",
+      "email": "phckondamodalu@rediffmail.com"
+    },
+    {
+      "sourceSerial": 20,
+      "facilityName": "Dumbriguda",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Dumbriguda",
+      "medicalOfficerName": "M. Revathi",
+      "mobile": "9642930354",
+      "email": "modumbriguda@gmail.com"
+    },
+    {
+      "sourceSerial": 21,
+      "facilityName": "Killoguda",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Dumbriguda",
+      "medicalOfficerName": "Kamidi Karuna",
+      "mobile": "9491541167",
+      "email": "killogudaphc@gmail.com"
+    },
+    {
+      "sourceSerial": 22,
+      "facilityName": "Gangavaram",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Gangavaram",
+      "medicalOfficerName": "Dr. T. Anusha",
+      "mobile": "8015111077",
+      "email": "phcgangavaram@rediffmail.com"
+    },
+    {
+      "sourceSerial": 23,
+      "facilityName": "Pidathamamidi",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Gangavaram",
+      "medicalOfficerName": "Dr. P. V. Ramakrishna",
+      "mobile": "9490716179",
+      "email": "phc.pidathamamidi@gmail.com"
+    },
+    {
+      "sourceSerial": 24,
+      "facilityName": "Gemmili",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "G. Madugula",
+      "medicalOfficerName": "Dr. Kolisetti Iswarya",
+      "mobile": "9505556224",
+      "email": "phcgemmeli@gmail.com"
+    },
+    {
+      "sourceSerial": 25,
+      "facilityName": "G. Madugula",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "G. Madugula",
+      "medicalOfficerName": "Dr. Uday Kumar",
+      "mobile": "9000827044",
+      "email": "mophcgmadugula@gmail.com"
+    },
+    {
+      "sourceSerial": 26,
+      "facilityName": "Darakonda",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Gudem Kotha Veedhi",
+      "medicalOfficerName": "Dr. K. V. Nagabhushan Rao",
+      "mobile": "9985490143",
+      "email": "darakondaphc@gmail.com"
+    },
+    {
+      "sourceSerial": 27,
+      "facilityName": "Gudem Kotha Veedhi",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Gudem Kotha Veedhi",
+      "medicalOfficerName": "Dr. Eswara Sandeep",
+      "mobile": "7093370008",
+      "email": "mophcgkveedhi@gmail.com"
+    },
+    {
+      "sourceSerial": 28,
+      "facilityName": "Jerrila",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Gudem Kotha Veedhi",
+      "medicalOfficerName": "Dr. Muhammed Majid",
+      "mobile": "9495675986",
+      "email": "mojerrila@gmail.com"
+    },
+    {
+      "sourceSerial": 29,
+      "facilityName": "Pedavalasa",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Gudem Kotha Veedhi",
+      "medicalOfficerName": "Dr. Sagge Sukanya",
+      "mobile": "9492615031",
+      "email": "crazydoc.ashok@gmail.com"
+    },
+    {
+      "sourceSerial": 30,
+      "facilityName": "Raghavendra Nagar",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Gudem Kotha Veedhi",
+      "medicalOfficerName": "Sabbavarapu Gayathri",
+      "mobile": "8330931867",
+      "email": "noor.nisah@gmail.com"
+    },
+    {
+      "sourceSerial": 31,
+      "facilityName": "Sapparla",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Gudem Kotha Veedhi",
+      "medicalOfficerName": "Dr. Lakkavarapukota Pavan Prasanth",
+      "mobile": "9441482778",
+      "email": "mo.phcsapparla@gmail.com"
+    },
+    {
+      "sourceSerial": 32,
+      "facilityName": "Sileru",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Gudem Kotha Veedhi",
+      "medicalOfficerName": "Savarapu Srinivas",
+      "mobile": "8978984444",
+      "email": "sunil.kota.jrg@gmail.com"
+    },
+    {
+      "sourceSerial": 33,
+      "facilityName": "Hukumpeta",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Hukumpeta",
+      "medicalOfficerName": "Namburi Sobha Rani",
+      "mobile": "7382552102",
+      "email": "mophchukumpeta@gmail.com"
+    },
+    {
+      "sourceSerial": 34,
+      "facilityName": "Uppa",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Hukumpeta",
+      "medicalOfficerName": "Balana Anusha",
+      "mobile": "8331028791",
+      "email": null
+    },
+    {
+      "sourceSerial": 35,
+      "facilityName": "Downooru",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Koyyuru",
+      "medicalOfficerName": "Malla Naga Kanaka Lalitha",
+      "mobile": "7730860637",
+      "email": "modownuru@gmail.com"
+    },
+    {
+      "sourceSerial": 36,
+      "facilityName": "Kantaram",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Koyyuru",
+      "medicalOfficerName": "V. Padma Priya",
+      "mobile": "8331846954",
+      "email": "phckantaram@gmail.com"
+    },
+    {
+      "sourceSerial": 37,
+      "facilityName": "Rajendrapalem",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Koyyuru",
+      "medicalOfficerName": "Dr. Malla Shyamala",
+      "mobile": "8331028663",
+      "email": null
+    },
+    {
+      "sourceSerial": 38,
+      "facilityName": "U. Cheedipalem",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Koyyuru",
+      "medicalOfficerName": "Kappala Suresh",
+      "mobile": "8331028693",
+      "email": null
+    },
+    {
+      "sourceSerial": 39,
+      "facilityName": "Kuturu",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Kunavaram",
+      "medicalOfficerName": "Dr. Siva Krishna Reddy",
+      "mobile": "8331802993",
+      "email": "mophckuturu@gmail.com"
+    },
+    {
+      "sourceSerial": 40,
+      "facilityName": "Boduluru",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Maredumilli",
+      "medicalOfficerName": "Dr. S. Swathi",
+      "mobile": "7675976134",
+      "email": "phcboduluru@rediffmail.com"
+    },
+    {
+      "sourceSerial": 41,
+      "facilityName": "Maredumilli",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Maredumilli",
+      "medicalOfficerName": "Dr. T. Anithavani",
+      "mobile": "6305394657",
+      "email": "phcmaredumilli@rediffmail.com"
+    },
+    {
+      "sourceSerial": 42,
+      "facilityName": "Kilagada",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Munchingi Puttu",
+      "medicalOfficerName": "Dr. T. Visweswara Rao",
+      "mobile": "9441530610",
+      "email": "phckilagada1@gmail.com"
+    },
+    {
+      "sourceSerial": 43,
+      "facilityName": "Labburu",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Munchingi Puttu",
+      "medicalOfficerName": "Dr. Remalla Shyamprasad",
+      "mobile": "9491779571",
+      "email": "mophclabburu@gmail.com"
+    },
+    {
+      "sourceSerial": 44,
+      "facilityName": "Gowridevipeta",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Nellipaka",
+      "medicalOfficerName": "Dr. P. Pulliah",
+      "mobile": "9866530544",
+      "email": "mophcgowridevipeta@gmail.com"
+    },
+    {
+      "sourceSerial": 45,
+      "facilityName": "Laxmipuram",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Nellipaka",
+      "medicalOfficerName": "Dr. E. Swapnika Reddy",
+      "mobile": "9849465976",
+      "email": "mophclaxmipuram@gmail.com"
+    },
+    {
+      "sourceSerial": 46,
+      "facilityName": "Nellipaka",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Nellipaka",
+      "medicalOfficerName": "Dr. T. V. Seshi Reddy",
+      "mobile": "9440727401",
+      "email": "mophc.nellipaka@gmail.com"
+    },
+    {
+      "sourceSerial": 47,
+      "facilityName": "Edulapalem",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Paderu",
+      "medicalOfficerName": "L. V. S. S. Prasad Patrudu",
+      "mobile": "9490035458",
+      "email": "phcedulapalem@gmail.com"
+    },
+    {
+      "sourceSerial": 48,
+      "facilityName": "Minumuluru",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Paderu",
+      "medicalOfficerName": "Vunnamapla Praveen Kumar",
+      "mobile": "8331028768",
+      "email": null
+    },
+    {
+      "sourceSerial": 49,
+      "facilityName": "Gomangi",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Peda Bayalu",
+      "medicalOfficerName": "Dr. M. A. Ambarish",
+      "mobile": "8919677040",
+      "email": "mophcgomangi@gmail.com"
+    },
+    {
+      "sourceSerial": 50,
+      "facilityName": "Pedabayalu",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Peda Bayalu",
+      "medicalOfficerName": "Robba Anjali",
+      "mobile": "8331028543",
+      "email": "drnargis88@gmail.com"
+    },
+    {
+      "sourceSerial": 51,
+      "facilityName": "Rudakota",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Peda Bayalu",
+      "medicalOfficerName": "Dr. Varadhi Kanaka Apparao",
+      "mobile": "8331028553",
+      "email": "haripraveennammi@gmail.com"
+    },
+    {
+      "sourceSerial": 52,
+      "facilityName": "Lagarai",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Rajavommangi",
+      "medicalOfficerName": "Dr. S. Nandhini",
+      "mobile": "9014861599",
+      "email": "lagaraiphc2015@gmail.com"
+    },
+    {
+      "sourceSerial": 53,
+      "facilityName": "Rajavommangi",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Rajavommangi",
+      "medicalOfficerName": "Dr. G. Sri Durga",
+      "mobile": "9491797068",
+      "email": "rajavommangiphc@gmail.com"
+    },
+    {
+      "sourceSerial": 54,
+      "facilityName": "Zaddangi",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Rajavommangi",
+      "medicalOfficerName": "Dr. Suji",
+      "mobile": "7780270053",
+      "email": "zaddangiphc@gmail.com"
+    },
+    {
+      "sourceSerial": 55,
+      "facilityName": "Narasapuram",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Rampachodavaram",
+      "medicalOfficerName": "Dr. Abdul Sharmila",
+      "mobile": "7416831217",
+      "email": "phcnarasapuram@rediffmail.com"
+    },
+    {
+      "sourceSerial": 56,
+      "facilityName": "Peda Geddada",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Rampachodavaram",
+      "medicalOfficerName": "Dr. Y. S. Prabhath",
+      "mobile": "8985080809",
+      "email": "phcpgeddada@rediffmail.com"
+    },
+    {
+      "sourceSerial": 57,
+      "facilityName": "Vadapalli",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Rampachodavaram",
+      "medicalOfficerName": "Dr. P. Mahesh Reddy",
+      "mobile": "9985747672",
+      "email": "vadapalliphc@gmail.com"
+    },
+    {
+      "sourceSerial": 58,
+      "facilityName": "Jeediguppa",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Vararamachandrapuram",
+      "medicalOfficerName": "Dr. Sunder Prasad (I/c)",
+      "mobile": "7416118819",
+      "email": "phcjeediguppa@gmail.com"
+    },
+    {
+      "sourceSerial": 59,
+      "facilityName": "Rekhapalli",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Vararamachandrapuram",
+      "medicalOfficerName": "Dr. M. Sundar Prasad",
+      "mobile": "7416118819",
+      "email": "phcrekhapalli@gmail.com"
+    },
+    {
+      "sourceSerial": 60,
+      "facilityName": "Chavitidibbalu",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Y. Ramavaram",
+      "medicalOfficerName": "Dr. G. Rajkumar",
+      "mobile": "9441150805",
+      "email": "chavitidebbaluphc@gmail.com"
+    },
+    {
+      "sourceSerial": 61,
+      "facilityName": "Gurthedu",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Y. Ramavaram",
+      "medicalOfficerName": "Dr. P. R. Sankarnarayana",
+      "mobile": "9493780460",
+      "email": "mophcgurtedu@gmail.com"
+    },
+    {
+      "sourceSerial": 62,
+      "facilityName": "Mangampadu",
+      "facilityType": "PHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Y. Ramavaram",
+      "medicalOfficerName": "Dr. D. Rahul",
+      "mobile": "9949298228",
+      "email": "phcmangampadu@gmail.com"
+    }
+  ],
+  "majorFacilities": [
+    {
+      "facilityName": "DH Paderu",
+      "facilityType": "District Hospital",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Paderu",
+      "beds": 200,
+      "sourceName": "Alluri Sitharama Raju District Administration - Health Department",
+      "sourceUrl": "https://allurisitharamaraju.ap.gov.in/health/",
+      "sourceSnapshotDate": null,
+      "sourceVerifiedOn": "2026-11-14"
+    },
+    {
+      "facilityName": "AH Araku",
+      "facilityType": "Area Hospital",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Araku Valley",
+      "beds": 150,
+      "sourceName": "Alluri Sitharama Raju District Administration - Health Department",
+      "sourceUrl": "https://allurisitharamaraju.ap.gov.in/health/",
+      "sourceSnapshotDate": null,
+      "sourceVerifiedOn": "2026-11-14"
+    },
+    {
+      "facilityName": "CHC Chintapalli",
+      "facilityType": "CHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Chintapalli",
+      "beds": 50,
+      "sourceName": "Alluri Sitharama Raju District Administration - Health Department",
+      "sourceUrl": "https://allurisitharamaraju.ap.gov.in/health/",
+      "sourceSnapshotDate": null,
+      "sourceVerifiedOn": "2026-11-14"
+    },
+    {
+      "facilityName": "CHC Munchingaput",
+      "facilityType": "CHC",
+      "district": "Alluri Sitharama Raju",
+      "mandal": "Munchingi Puttu",
+      "beds": 30,
+      "sourceName": "Alluri Sitharama Raju District Administration - Health Department",
+      "sourceUrl": "https://allurisitharamaraju.ap.gov.in/health/",
+      "sourceSnapshotDate": null,
+      "sourceVerifiedOn": "2026-11-14"
+    }
+  ]
+}

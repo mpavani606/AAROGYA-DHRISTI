@@ -1,0 +1,116 @@
+{
+  "pages": [
+    {
+      "slug": "what-is-oral-cancer",
+      "title": { "en": "About oral cancer", "te": "నోటి క్యాన్సర్ గురించి", "hi": "मुख के कैंसर के बारे में" },
+      "body": {
+        "en": "Oral cancer is a term for cancer that can develop in parts of the mouth. This page offers general information only.\n\nA health worker can help arrange an examination. This app cannot identify or rule out a condition.\n\nIf you have a concern, speak with a doctor. This information does not replace a doctor's advice.",
+        "te": "నోటి క్యాన్సర్ అనేది నోటిలోని కొన్ని భాగాల్లో ఏర్పడే క్యాన్సర్‌కు ఉపయోగించే పదం. ఈ పేజీ సాధారణ సమాచారాన్ని మాత్రమే అందిస్తుంది.\n\nఆరోగ్య కార్యకర్త పరీక్షకు ఏర్పాట్లు చేయడంలో సహాయపడగలరు. ఈ యాప్ ఏ పరిస్థితినీ గుర్తించదు లేదా లేదని నిర్ధారించదు.\n\nమీకు ఆందోళన ఉంటే వైద్యుడితో మాట్లాడండి. ఈ సమాచారం వైద్యుడి సలహాకు బదులు కాదు.",
+        "hi": "मुख के कैंसर शब्द का उपयोग मुंह के कुछ हिस्सों में विकसित होने वाले कैंसर के लिए किया जाता है। यह पृष्ठ केवल सामान्य जानकारी देता है।\n\nस्वास्थ्य कार्यकर्ता जांच की व्यवस्था करने में मदद कर सकते हैं। यह ऐप किसी स्थिति की पहचान या उसे खारिज नहीं कर सकता।\n\nकोई चिंता हो तो डॉक्टर से बात करें। यह जानकारी डॉक्टर की सलाह का विकल्प नहीं है।"
+      }
+    },
+    {
+      "slug": "warning-signs",
+      "title": { "en": "Changes to discuss with a doctor", "te": "వైద్యుడితో చర్చించాల్సిన మార్పులు", "hi": "डॉक्टर से चर्चा करने योग्य बदलाव" },
+      "body": {
+        "en": "A sore that does not heal, a patch, a lump, bleeding, or difficulty opening the mouth or swallowing are changes to discuss with a doctor.\n\nMany different causes can lead to changes in the mouth. Only a doctor can examine you and advise what to do next.\n\nThis app cannot assess a person's health. This needs a doctor's examination.",
+        "te": "మానని పుండు, మచ్చ, గడ్డ, రక్తస్రావం, నోరు తెరవడంలో లేదా మింగడంలో ఇబ్బంది ఉంటే వైద్యుడితో చర్చించండి.\n\nనోటిలో మార్పులకు అనేక కారణాలు ఉండవచ్చు. వైద్యుడు మాత్రమే పరీక్షించి తదుపరి సలహా ఇవ్వగలరు.\n\nఈ యాప్ ఆరోగ్య పరిస్థితిని అంచనా వేయదు. దీనికి వైద్యుడి పరీక్ష అవసరం.",
+        "hi": "न भरने वाला घाव, धब्बा, गांठ, खून आना, मुंह खोलने या निगलने में कठिनाई जैसे बदलावों पर डॉक्टर से बात करें।\n\nमुंह में बदलाव के कई कारण हो सकते हैं। केवल डॉक्टर जांच करके आगे की सलाह दे सकते हैं।\n\nयह ऐप किसी व्यक्ति के स्वास्थ्य का आकलन नहीं करता। इसके लिए डॉक्टर की जांच जरूरी है।"
+      }
+    },
+    {
+      "slug": "prevention",
+      "title": { "en": "Choices that support mouth health", "te": "నోటి ఆరోగ్యానికి తోడ్పడే అలవాట్లు", "hi": "मुंह के स्वास्थ्य में सहायक आदतें" },
+      "body": {
+        "en": "Avoiding tobacco, gutkha and areca nut can support mouth health. If you want help stopping, ask a health worker about local support.\n\nChoose regular check-ups when they are available to you. Speak with a doctor if you notice a change in your mouth.\n\nThis is general education, not a personal care plan.",
+        "te": "పొగాకు, గుట్కా, వక్కపొడి వాడకాన్ని నివారించడం నోటి ఆరోగ్యానికి తోడ్పడుతుంది. మానేందుకు సహాయం కావాలంటే స్థానిక సహాయం గురించి ఆరోగ్య కార్యకర్తను అడగండి.\n\nఅందుబాటులో ఉన్నప్పుడు క్రమం తప్పని ఆరోగ్య పరీక్షలు చేయించుకోండి. నోటిలో మార్పు గమనిస్తే వైద్యుడితో మాట్లాడండి.\n\nఇది సాధారణ విద్యా సమాచారం మాత్రమే; వ్యక్తిగత సంరక్షణ ప్రణాళిక కాదు.",
+        "hi": "तंबाकू, गुटखा और सुपारी से दूर रहना मुंह के स्वास्थ्य में मदद कर सकता है। इन्हें छोड़ने में सहायता चाहिए तो स्थानीय मदद के लिए स्वास्थ्य कार्यकर्ता से पूछें।\n\nउपलब्ध होने पर नियमित जांच करवाएं। मुंह में बदलाव दिखे तो डॉक्टर से बात करें।\n\nयह सामान्य शैक्षिक जानकारी है, व्यक्तिगत देखभाल योजना नहीं।"
+      }
+    },
+    {
+      "slug": "your-visit",
+      "title": { "en": "Getting ready for your visit", "te": "మీ సందర్శనకు సిద్ధం కావడం", "hi": "अपनी मुलाकात की तैयारी" },
+      "body": {
+        "en": "Bring your appointment slip and any records you want to discuss. Tell the care team which language you prefer.\n\nYou can ask what will happen during the visit and request help understanding any instructions.\n\nA family member or support person may join if you wish and the clinic allows it.",
+        "te": "మీ అపాయింట్‌మెంట్ పత్రం, చర్చించాలనుకునే రికార్డులను తీసుకురండి. మీకు నచ్చిన భాషను సంరక్షణ బృందానికి చెప్పండి.\n\nసందర్శనలో ఏమి జరుగుతుందో అడగవచ్చు. సూచనలు అర్థం చేసుకోవడానికి సహాయం కోరవచ్చు.\n\nమీకు ఇష్టమైతే, కేంద్రం అనుమతిస్తే కుటుంబ సభ్యుడు లేదా సహాయకుడు మీతో రావచ్చు.",
+        "hi": "अपनी अपॉइंटमेंट पर्ची और चर्चा के लिए जरूरी रिकॉर्ड साथ लाएं। देखभाल टीम को अपनी पसंद की भाषा बताएं।\n\nआप पूछ सकते हैं कि मुलाकात में क्या होगा और निर्देश समझने में मदद मांग सकते हैं।\n\nआप चाहें और केंद्र अनुमति दे तो परिवार का सदस्य या सहायक आपके साथ आ सकता है।"
+      }
+    },
+    {
+      "slug": "recovery-care",
+      "title": { "en": "Care after a visit or procedure", "te": "సందర్శన లేదా ప్రక్రియ తర్వాత సంరక్షణ", "hi": "मुलाकात या प्रक्रिया के बाद देखभाल" },
+      "body": {
+        "en": "Follow the written instructions given by your care team. Ask them to explain anything that is unclear before you leave.\n\nKeep follow-up appointments or contact the clinic if you cannot attend. Ask the care team who to contact if you have a concern.\n\nThis page gives general information and does not replace advice from your doctor.",
+        "te": "మీ సంరక్షణ బృందం ఇచ్చిన వ్రాతపూర్వక సూచనలను పాటించండి. వెళ్లే ముందు అర్థంకాని విషయాలను వివరించమని అడగండి.\n\nతదుపరి అపాయింట్‌మెంట్‌లకు హాజరుకండి లేదా రాలేకపోతే కేంద్రాన్ని సంప్రదించండి. ఆందోళన ఉంటే ఎవరిని సంప్రదించాలో అడగండి.\n\nఈ పేజీ సాధారణ సమాచారం మాత్రమే; వైద్యుడి సలహాకు బదులు కాదు.",
+        "hi": "देखभाल टीम के लिखित निर्देशों का पालन करें। जाने से पहले अस्पष्ट बातों को समझाने के लिए कहें।\n\nआगे की मुलाकातों में जाएं या न जा पाएं तो क्लिनिक से संपर्क करें। चिंता होने पर किससे संपर्क करना है, पूछें।\n\nयह पृष्ठ सामान्य जानकारी देता है और डॉक्टर की सलाह का विकल्प नहीं है।"
+      }
+    },
+    {
+      "slug": "diet-nutrition",
+      "title": { "en": "Food and hydration", "te": "ఆహారం మరియు ద్రవాలు", "hi": "भोजन और तरल पदार्थ" },
+      "body": {
+        "en": "A varied diet can include vegetables, fruits, grains and protein foods that are available to you. Drink water during the day unless your care team has given different instructions.\n\nSome people find soft-cooked foods easier to eat. If eating or swallowing is difficult, ask your doctor or diet professional for advice suited to you.\n\nThis guide is general information, not a personal nutrition plan.",
+        "te": "మీకు అందుబాటులో ఉన్న కూరగాయలు, పండ్లు, ధాన్యాలు, ప్రోటీన్ ఆహారాలతో వైవిధ్యమైన ఆహారం తీసుకోవచ్చు. మీ సంరక్షణ బృందం వేరే సూచనలు ఇవ్వకపోతే రోజంతా నీరు తాగండి.\n\nకొంతమందికి మెత్తగా ఉడికించిన ఆహారం తినడానికి సులభంగా ఉంటుంది. తినడం లేదా మింగడం కష్టమైతే మీకు సరిపోయే సలహా కోసం వైద్యుడు లేదా ఆహార నిపుణుడిని అడగండి.\n\nఈ మార్గదర్శి సాధారణ సమాచారం మాత్రమే; వ్యక్తిగత ఆహార ప్రణాళిక కాదు.",
+        "hi": "आपके पास उपलब्ध सब्जियां, फल, अनाज और प्रोटीन वाले खाद्य पदार्थ भोजन में शामिल हो सकते हैं। देखभाल टीम ने अलग निर्देश न दिए हों तो दिन में पानी पिएं।\n\nकुछ लोगों को नरम पका भोजन खाना आसान लगता है। खाने या निगलने में कठिनाई हो तो अपने लिए सलाह डॉक्टर या आहार विशेषज्ञ से लें।\n\nयह मार्गदर्शिका सामान्य जानकारी है, व्यक्तिगत आहार योजना नहीं।"
+      }
+    },
+    {
+      "slug": "stay-tobacco-free",
+      "title": { "en": "Support to stop tobacco", "te": "పొగాకు మానేందుకు సహాయం", "hi": "तंबाकू छोड़ने में सहायता" },
+      "body": {
+        "en": "Stopping tobacco and gutkha can be difficult, and support is available. Tell a health worker if you would like help making a plan to stop.\n\nA doctor or counsellor can discuss support options with you. If you return to tobacco after stopping, you can still ask for help again.\n\nThis page does not offer a personal treatment plan.",
+        "te": "పొగాకు, గుట్కా మానడం కష్టంగా ఉండవచ్చు; సహాయం అందుబాటులో ఉంది. మానేందుకు ప్రణాళిక చేయాలనుకుంటే ఆరోగ్య కార్యకర్తకు చెప్పండి.\n\nవైద్యుడు లేదా కౌన్సిలర్ సహాయ మార్గాలను మీతో చర్చించగలరు. మానిన తర్వాత మళ్లీ వాడినా, సహాయం కోసం తిరిగి అడగవచ్చు.\n\nఈ పేజీ వ్యక్తిగత చికిత్స ప్రణాళికను ఇవ్వదు.",
+        "hi": "तंबाकू और गुटखा छोड़ना कठिन हो सकता है, और मदद उपलब्ध है। छोड़ने की योजना बनाने में मदद चाहिए तो स्वास्थ्य कार्यकर्ता को बताएं।\n\nडॉक्टर या परामर्शदाता सहायता के विकल्पों पर बात कर सकते हैं। छोड़ने के बाद दोबारा शुरू हो जाए तो भी फिर से मदद मांग सकते हैं।\n\nयह पृष्ठ व्यक्तिगत उपचार योजना नहीं देता।"
+      }
+    },
+    {
+      "slug": "questions-for-doctor",
+      "title": { "en": "Questions you may ask your doctor", "te": "వైద్యుడిని అడగవచ్చే ప్రశ్నలు", "hi": "डॉक्टर से पूछे जा सकने वाले सवाल" },
+      "body": {
+        "en": "You may ask: What did you notice during the examination? What happens next? When should I return? Who can I contact with questions?\n\nYou can ask the care team to explain words or instructions in the language you prefer. Write down answers or bring someone you trust if that helps you.\n\nYour doctor can answer questions about your own care.",
+        "te": "మీరు అడగవచ్చు: పరీక్షలో మీరు ఏమి గమనించారు? తర్వాత ఏమి జరుగుతుంది? నేను ఎప్పుడు తిరిగి రావాలి? ప్రశ్నల కోసం ఎవరిని సంప్రదించాలి?\n\nమీకు నచ్చిన భాషలో పదాలు లేదా సూచనలు వివరించమని సంరక్షణ బృందాన్ని అడగండి. సహాయమైతే సమాధానాలు రాసుకోండి లేదా నమ్మిన వ్యక్తిని తీసుకురండి.\n\nమీ స్వంత సంరక్షణ గురించి వైద్యుడు సమాధానాలు ఇస్తారు.",
+        "hi": "आप पूछ सकते हैं: जांच के दौरान आपने क्या देखा? आगे क्या होगा? मुझे कब वापस आना चाहिए? सवाल होने पर किससे संपर्क करूं?\n\nदेखभाल टीम से अपनी पसंद की भाषा में शब्दों या निर्देशों को समझाने के लिए कहें। मदद मिले तो जवाब लिखें या किसी भरोसेमंद व्यक्ति को साथ लाएं।\n\nआपकी देखभाल से जुड़े सवालों के जवाब डॉक्टर दे सकते हैं।"
+      }
+    }
+  ],
+  "foods": [
+    { "id": "spinach", "name": { "en": "Spinach", "te": "పాలకూర", "hi": "पालक" }, "category": "leafy_greens" },
+    { "id": "amaranth", "name": { "en": "Amaranth leaves", "te": "తోటకూర", "hi": "चौलाई के पत्ते" }, "category": "leafy_greens" },
+    { "id": "drumstick-leaves", "name": { "en": "Drumstick leaves", "te": "మునగాకు", "hi": "सहजन के पत्ते" }, "category": "leafy_greens" },
+    { "id": "gongura", "name": { "en": "Gongura", "te": "గోంగూర", "hi": "गोंगुरा पत्ते" }, "category": "leafy_greens" },
+    { "id": "pumpkin", "name": { "en": "Pumpkin", "te": "గుమ్మడికాయ", "hi": "कद्दू" }, "category": "vegetables_fruits" },
+    { "id": "carrot", "name": { "en": "Carrot", "te": "క్యారెట్", "hi": "गाजर" }, "category": "vegetables_fruits" },
+    { "id": "bottle-gourd", "name": { "en": "Bottle gourd", "te": "సొరకాయ", "hi": "लौकी" }, "category": "vegetables_fruits" },
+    { "id": "ridge-gourd", "name": { "en": "Ridge gourd", "te": "బీరకాయ", "hi": "तुरई" }, "category": "vegetables_fruits" },
+    { "id": "tomato", "name": { "en": "Tomato", "te": "టమాటా", "hi": "टमाटर" }, "category": "vegetables_fruits" },
+    { "id": "beetroot", "name": { "en": "Beetroot", "te": "బీట్‌రూట్", "hi": "चुकंदर" }, "category": "vegetables_fruits" },
+    { "id": "papaya", "name": { "en": "Papaya", "te": "బొప్పాయి", "hi": "पपीता" }, "category": "vegetables_fruits" },
+    { "id": "banana", "name": { "en": "Banana", "te": "అరటిపండు", "hi": "केला" }, "category": "vegetables_fruits" },
+    { "id": "mango", "name": { "en": "Mango", "te": "మామిడి", "hi": "आम" }, "category": "vegetables_fruits" },
+    { "id": "guava", "name": { "en": "Guava", "te": "జామ", "hi": "अमरूद" }, "category": "vegetables_fruits" },
+    { "id": "orange", "name": { "en": "Orange", "te": "నారింజ", "hi": "संतरा" }, "category": "vegetables_fruits" },
+    { "id": "pomegranate", "name": { "en": "Pomegranate", "te": "దానిమ్మ", "hi": "अनार" }, "category": "vegetables_fruits" },
+    { "id": "ragi", "name": { "en": "Ragi", "te": "రాగి", "hi": "रागी" }, "category": "grains" },
+    { "id": "jowar", "name": { "en": "Jowar", "te": "జొన్న", "hi": "ज्वार" }, "category": "grains" },
+    { "id": "rice", "name": { "en": "Rice", "te": "బియ్యం", "hi": "चावल" }, "category": "grains" },
+    { "id": "dal", "name": { "en": "Dal and pulses", "te": "పప్పులు", "hi": "दाल और फलियां" }, "category": "protein" },
+    { "id": "eggs", "name": { "en": "Eggs", "te": "గుడ్లు", "hi": "अंडे" }, "category": "protein" },
+    { "id": "milk", "name": { "en": "Milk", "te": "పాలు", "hi": "दूध" }, "category": "protein" },
+    { "id": "curd", "name": { "en": "Curd", "te": "పెరుగు", "hi": "दही" }, "category": "protein" },
+    { "id": "fish", "name": { "en": "Fish", "te": "చేప", "hi": "मछली" }, "category": "protein" },
+    { "id": "chicken", "name": { "en": "Soft-cooked chicken", "te": "మెత్తగా ఉడికించిన చికెన్", "hi": "नरम पका चिकन" }, "category": "protein" },
+    { "id": "water", "name": { "en": "Water", "te": "నీరు", "hi": "पानी" }, "category": "fluids" },
+    { "id": "buttermilk", "name": { "en": "Buttermilk", "te": "మజ్జిగ", "hi": "छाछ" }, "category": "fluids" },
+    { "id": "coconut-water", "name": { "en": "Coconut water", "te": "కొబ్బరి నీరు", "hi": "नारियल पानी" }, "category": "fluids" },
+    { "id": "soup", "name": { "en": "Soup", "te": "సూప్", "hi": "सूप" }, "category": "fluids" },
+    { "id": "very-hot", "name": { "en": "Very hot foods or drinks", "te": "చాలా వేడి ఆహారం లేదా పానీయాలు", "hi": "बहुत गर्म भोजन या पेय" }, "category": "careful" },
+    { "id": "very-spicy", "name": { "en": "Very spicy foods", "te": "చాలా కారంగా ఉండే ఆహారం", "hi": "बहुत तीखा भोजन" }, "category": "careful" },
+    { "id": "hard-rough", "name": { "en": "Hard, rough or crunchy foods", "te": "గట్టిగా, గరుకుగా లేదా కరకరలాడే ఆహారం", "hi": "कठोर, खुरदरा या कुरकुरा भोजन" }, "category": "careful" },
+    { "id": "tobacco-gutkha", "name": { "en": "Tobacco, gutkha and areca nut", "te": "పొగాకు, గుట్కా, వక్కపొడి", "hi": "तंबाकू, गुटखा और सुपारी" }, "category": "careful" }
+  ],
+  "softFoodTip": {
+    "en": "Soft-cooking can change texture. Ask your care team for advice suited to you.",
+    "te": "మెత్తగా ఉడికించడం ఆహారపు గట్టితనాన్ని మార్చవచ్చు. మీకు సరిపోయే సలహా కోసం సంరక్షణ బృందాన్ని అడగండి.",
+    "hi": "नरम पकाने से भोजन की बनावट बदल सकती है। अपने लिए सलाह देखभाल टीम से लें।"
+  }
+}

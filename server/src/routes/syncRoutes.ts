@@ -1,0 +1,18 @@
+import { Router } from "express";
+import { auth } from "../middleware/auth.js";
+import { requireRole } from "../middleware/rbac.js";
+import { requireDoctorVerification } from "../middleware/doctorVerification.js";
+import { auditAccess } from "../middleware/auditAccess.js";
+import rateLimit from "express-rate-limit";
+import { validateUploadIdParam } from "../middleware/validate.js";
+import { chunkStatus, startChunkUpload, syncBatch, syncPull, uploadChunk } from "../controllers/syncController.js";
+export const syncRoutes = Router();
+const syncBatchLimit = rateLimit({ windowMs: 60_000, limit: 20, standardHeaders: true, legacyHeaders: false });
+const uploadStartLimit = rateLimit({ windowMs: 60_000, limit: 10, standardHeaders: true, legacyHeaders: false });
+const chunkLimit = rateLimit({ windowMs: 60_000, limit: 60, standardHeaders: true, legacyHeaders: false });
+syncRoutes.use(auth, requireRole("patient", "doctor", "district_admin", "system_admin"), requireDoctorVerification, auditAccess);
+syncRoutes.post("/sync/batch", syncBatchLimit, syncBatch);
+syncRoutes.get("/sync/pull", syncPull);
+syncRoutes.post("/sync/uploads", uploadStartLimit, startChunkUpload);
+syncRoutes.get("/sync/uploads/:uploadId", validateUploadIdParam, chunkStatus);
+syncRoutes.put("/sync/uploads/:uploadId/chunks", chunkLimit, validateUploadIdParam, uploadChunk);
